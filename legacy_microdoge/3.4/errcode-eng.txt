@@ -1,0 +1,190 @@
+Error Code Description
+======================================
+
+
+10005:	Invalid HOSTID.
+10006:	Invalid parameter of Read/Write functions.
+10008:	Read/Write timeout.
+10021:  No legal Hardware Dog found.
+10023:  No legal Hardware Dog found.
+10030:	Sending Serial Number failure (Invalid serial number or no legal Hardware Dog attached).
+10033:  No legal Hardware Dog found or invalid Serial Number.
+10050:	Sending access password failure.
+10051:  Invalid password.
+10053:  Invalid password.
+10054:  beyond the limit of password length, The Hardware whose SN is small than 871440 can only support 2 bytes password.
+10060:	Address not sent.
+10070:	Random code not sent.
+10080:	Data not sent.
+10090:	Data not received.
+10100:	HOSTID not sent.
+10101:  Invalid HOSTID or invalid USBDog's password.
+10103:  Invalid HOSTID.
+10200:	No legal Hardware Dog found.
+10221:  No legal Hardware Dog found.
+10231:  Hardware Dog error. 
+10223:  No parallel port found or Hardware Dog error.
+10230:  Your driver is old, please reinstall the new driver.
+10233:  Hardware Dog error.
+10300:	Hardware Dogs with the same serial number error.
+10400:	Command code of system command not sent.
+10500:	Address of system command not sent.
+10600:	Random number of system command not sent.
+10700:	Data of system command not sent.
+10800:	Data of system command not received.
+10900:	Random code of system command not sent.
+11000:	Beginning code of system command not sent.
+12000:	Serial Number of system command not sent.
+13000:	Byte number of system command not sent.
+14000:	Access password of system command not sent.
+15000:	Byte number error.
+16000:	Parameter not converted.
+17000:  Cascade error.
+17003:  Cascade error.
+
+20001:	Hardware Dog type not supported.
+20007:	Incorrect port index.
+20008:	Port is busy or no port found. 
+20009:	NT DLL registration failure.
+20010:	Registration for NT DLL not deleted. 
+20011:	NT DLL not opened.
+20012:	NT DLL not closed.
+20013:	No device driver HOSTID found.
+20014:	No HOSTID found.
+20015:  USBDog not supported on WinNT4.
+20016:  IO error for USBDog on WinNT4.
+20017:  IO error for MicroDog. 
+20018:  MicroDog not supported. 
+20020:  SN and Cascade is not matched.
+20021:  linux device IO failed.
+20022:  linux has not valid device.
+20023:  Not passed authenication.
+20050:	No port found.
+20051:	Port is busy.
+20052:	Port used by another thread.
+20053:	Port used by system.
+20054:	Port used by another device.
+
+30001:	Operating system not supported.
+30002:	No device driver installed or found.
+30003:  Module not bound.
+30004:  Driver version not supported.
+30005:  Cascade not supported by USBDog.
+30009:  Not passed the authentication, the current driver is old, please reinstall the new driver.
+30010:  Driver returned value error.
+30011:  Not support this function.
+30012:  Your driver is old, please reinstall the new driver.
+
+40001:	Invalid DogID in program for DogID on Hardware Dog.
+40002:	Windows API call failure.
+41111:	Code damaged.
+
+50001:	Dog address error.
+50002:	Cascade number too many.
+50003:	DogData pointer is NULL.
+50004:	Buffer overflow.
+50005:	Operation code error.
+50006:	Share denies. 
+50007:  Host95.vxd not installed.
+
+60001:	This is not an EXE file.
+60002:	This is not a file with PE structure. PE structure is an EXE structure in Win32 system.
+60003:	DOS header of the file not read.
+60004:	PE header of the file not read.  Please see 60002.
+60005:	File is not written for INTEL 386 series computer.
+60006:	This is not an executable file.
+60007:	Too many items in header.
+60009:	File not read.
+60010:	File not written. 
+60011:	Sequence error.  Code segment is after data segment.
+60012:	No relocation found.
+60013:	No import table found.
+60014:	Cannot map RVA into FA.
+60015:	Unknown relocation. 
+60016:	Relocation section not read.
+60017:	Relocation paragraph not read.
+60018:	Relocation not read. 
+60019:	Reading error.
+60020:	Writing error.
+60021:	Writing error
+60022:	Error on reading address, place 0.
+60023:	Error on reading address, place 1.
+60024:	Error on reading address, place 2.
+60025:	Error on reading address, place 3.
+60026:	Error on reading address, place 4.
+60027:	Error on reading address, place 5.
+60028:	Failure on reading file.
+60029:	Failure on reading DEBUG information.
+60030:	DEBUG information not found.
+60031:	Resources not found.
+60032:	Resources not read.
+60034:	Directory of resource not read.
+60035:	Data of resource not read.
+60036:	No code segment found.  
+60037:	No data segment found.
+60038:	No export table found. 
+60039:	Export table not read. 
+60040:	No relocation table found.  
+60041:	No gap found.  
+60042:	Invalid address.
+60047:	Too many import tables.
+60049:	Unknown address.
+60050:	Relocation table not read. 
+60052:	No space to write tag. 
+60053:	No encrypted file exists. 
+60054:	Input file name cannot be same with output file name.
+60055:	File not created.  
+60056:	Not a PB5.0 program.
+60057:	Too much embedded data.
+60058:	There is a wildcard, but no matching item found.  
+60059:	Encryption terminates.  
+60060:	No import table segment found.  
+60061:	Name of time file not accord with the 8.3 format of DOS.
+60062:	Too long function name on import table.
+60063:	Time file not created.  
+60080:	Insufficient memory.
+60100:	Function not found.  
+
+60101:	Reading error.
+60102:	Writing error.
+60103:	Insufficient memory.
+60104:	Zero offset.
+60105:	Resource number error. 
+60106:	Damaged resources.
+60108:	Not a NE structure file.
+60109:	Incorrect segment number.
+60110:	Too many segments.
+60111:	Unknown segment.
+60112:	Unknown module.
+60113:	No string found.  
+60114:	Relocation error.  
+60115:	Unknown new entry point. 
+60116:	Null entry point. 
+60117:	Enter point error 1.
+60118:	Enter point error 2.
+60119:	There is no this enter point.
+60120:	Too many data relocations. 
+60121:	Too many capture points. 
+60122:	Unknown embedded point. 
+60123:	Null entry point 1. 
+60127:	Hardware Dog error. 
+60128:	Self-load error. 
+60130:	File not opened.
+60131:	File not created.  
+60132:	File name cannot be same.  
+60133:	Unknown module data. 
+60135:	Invalid password.
+60136:	Must select embedding.
+60137:	File not matched.
+60138:	Not a VB3.0 EXE file.
+60139:	Not a FOXPRO EXE file.
+60140:	File has been encrypted.
+60141:	"FOXW" not found.  
+60142:	Source file not read.  
+60143:	Destination file not written.  
+60144:	Dog conversion failure. 
+60145:	There is no Import name.
+60146:	Relocate Import name. 
+60147:	No enough entry points.
+60148:	No string found.  
+60201:  Invalid parameter for ActiveX control.
