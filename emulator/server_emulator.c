@@ -53,7 +53,9 @@ void ProcessRequest(MDGRequest * req, MDGResponse * res, unsigned int print_info
         case OP_CONVERT_HASH:
             for(int i=0;i<emu_dog.num_convert_entries;i++){
                 DOG_CONVERT_ENTRY* current_entry = emu_dog.convert_entry + i;
-                if(!memcmp(req->dog_data,current_entry->request,req->dog_bytes)){
+                // Bugfix 20230312: We were stopping on the first instance where a shorter request would match, we need to check
+                // that the whole request given matches, but is also the whole request in the rainbow table as well.
+                if(!memcmp(req->dog_data,current_entry->request,req->dog_bytes) && !memcmp(req->dog_data,current_entry->request,current_entry->request_len) ){
                     memcpy(res->dog_data,&current_entry->response,sizeof(current_entry->response));
                     resp_found = 1;
                     break;
